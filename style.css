@@ -1,0 +1,133 @@
+:root {
+    --branco-principal:#ffffff;
+    --cinza-secundario:#c0c0c0;
+    --botao-azul:#167BF7;
+    --cor-de-fundo:#00030C;
+    --fonte-pricipal:'inter';
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-pricipal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url(imgplus/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container__caixa{
+    margin: 0 6em;
+    
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__titulo{
+    font-size: 28px;
+    height: 700;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 2px ;
+    text-decoration: none;
+    padding: 1em;
+    color: var(--botao-pricipal);
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 90%;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);    
+}
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+    
+}
+.container__imagen{
+    margin: 1em 0 2em 0;
+}
+/* segunda parte*/
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.secundaria__imagem{
+    width: 450px;
+}
+.descrição__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+.descriçao__texto{
+    color: var(--cinza-secundario);
+}
+/*terceira parte*/
+.secundario__botao{
+    display: inline-block;
+    width: 162px;
+    margin-top: 1em;
+}
+.container__descriçao{
+    padding: 2em;
+}
+/*quarta parte*/
+.container secundario{
+    display: inline-block;
+}
+/*quinta parte*/
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulos{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__listas{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.lista__itens{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+/*footer*/
+.rodape{
+    text-align: center;
+    margin: 10em 0 0 0;
+}
+.rodape__lista{
+    display: flex;
+    font-size: 16px;
+    list-style-type: none;
+}
+.lista__link{
+    text-decoration: none;
+    padding: 1em;
+}
+.lista__link a:hover{
+    color:#a09c9c
+}
+li a ,.lista__link{
+    text-decoration: none;
+    color: var(--cinza-secundario);
+}
+p,.rodape__texto{
+    padding: 1em;
+    color: var(--cinza-secundario);
+}
